@@ -29,3 +29,15 @@ for(let i=0;i<listbytag.length;i++)
 {
     listbytag[i].style.color="red";
 }
+
+lists[1].style.backgroundColor="green";
+lists[2].style.display="none";
+
+lists[1].style.color="green";
+
+let oddele=document.querySelectorAll("li:nth-child(odd")
+
+for(let i=0;i<oddele.length;i++)
+{
+    oddele[i].style.backgroundColor="green";
+}
