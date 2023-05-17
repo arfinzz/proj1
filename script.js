@@ -9,9 +9,23 @@ titles[1].style.color="green";
 
 let lists=document.querySelectorAll(".list-group-item");
 
+
 lists[2].style.backgroundColor="green";
 
 for(let i=0;i<lists.length;i++)
 {
     lists[i].style.fontWeight="bold";
+}
+
+let listbyclass=document.getElementsByClassName("list-group-item");
+let listbytag=document.getElementsByTagName("li");
+
+for(let i=0;i<listbyclass.length;i++)
+{
+    listbyclass[i].style.backgroundColor="grey";
+}
+
+for(let i=0;i<listbytag.length;i++)
+{
+    listbytag[i].style.color="red";
 }
